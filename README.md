@@ -55,6 +55,7 @@ Follow these steps to set up and run the Java REST API application:
    ```bash
    java -jar target/mongoserver-REST-API.jar
    ```
+![1](https://github.com/sjarunvenkat/mongoserver-REST-API/assets/73863663/ef6b241c-0328-48d4-b641-a93e5a67f73a)
 
 The application should now be running on `http://localhost:6039//servers`.
 
@@ -69,6 +70,7 @@ To configure the MongoDB connection, set the following environment variables:
 ## Endpoints
 
 ### GET /servers
+![2](https://github.com/sjarunvenkat/mongoserver-REST-API/assets/73863663/926fc14e-b585-43b7-8475-868c72727ccc)
 
 - Description: Retrieve a list of all server objects.
 - Request: None required.
@@ -93,6 +95,7 @@ To configure the MongoDB connection, set the following environment variables:
   ```
 
 ### GET /servers/{id}
+![3](https://github.com/sjarunvenkat/mongoserver-REST-API/assets/73863663/884da3c6-bd7f-4150-99c9-1fcc2a1a90e8)
 
 - Description: Retrieve a single server object by its ID.
 - Request: Path parameter `id` specifying the server ID.
@@ -115,6 +118,7 @@ To configure the MongoDB connection, set the following environment variables:
   ```
 
 ### GET /servers/searchname
+![4](https://github.com/sjarunvenkat/mongoserver-REST-API/assets/73863663/89918d6c-4557-464a-a7aa-ade4d7f104f5)
 
 - Description: Search for server objects by name.
 - Request: Query parameter `name` specifying the name to search for.
@@ -139,6 +143,7 @@ To configure the MongoDB connection, set the following environment variables:
   ```
 
 ### POST /servers/create
+![6](https://github.com/sjarunvenkat/mongoserver-REST-API/assets/73863663/3f2e0a54-a5fb-489e-8690-f2f100a9efcb)
 
 - Description: Create a new server object.
 - Request: JSON-encoded server object in the request body.
@@ -160,6 +165,7 @@ To configure the MongoDB connection, set the following environment variables:
   ```
 
 ### PUT /servers/{id}
+![5](https://github.com/sjarunvenkat/mongoserver-REST-API/assets/73863663/569368ff-2a36-4dde-9f87-dd65609d6ec0)
 
 - Description: Update an existing server object by its ID.
 - Request: Path parameter `id` specifying the server ID, and a JSON-encoded server object in the request body.
@@ -190,6 +196,7 @@ To configure the MongoDB connection, set the following environment variables:
   ```
 
 ### DELETE /servers/{id}
+![7](https://github.com/sjarunvenkat/mongoserver-REST-API/assets/73863663/949dfdb1-98d5-4a95-97f1-9794e0825861)
 
 - Description: Delete a server object by its ID.
 - Request: Path parameter `id` specifying the server ID.
