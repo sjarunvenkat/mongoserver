@@ -1,4 +1,4 @@
-# Task 2: Generating a Java REST API with Swagger Codegen
+# Generating a Java REST API with Swagger Codegen
 
 This project demonstrates the generation of a Java-based REST API using Swagger Codegen and Spring Boot. The API provides endpoints for managing "server" objects, including searching, creating, updating, and deleting server objects. The server objects are stored in a MongoDB database.
 
