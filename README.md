@@ -1,4 +1,4 @@
-# Task 1: Java REST API Example
+# Java REST API
 
 This project demonstrates the implementation of a Java-based REST API for managing "server" objects. It includes endpoints for searching, creating, updating, and deleting server objects. The server objects are stored in a MongoDB database.
 
